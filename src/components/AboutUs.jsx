@@ -1,8 +1,9 @@
-import './AboutUs.css';
+import React from 'react';
+import './components/AboutUs.css';
 
 export default function AboutUs() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="about-container">
         <h2>About Paradise Nursery</h2>
         
@@ -10,40 +11,42 @@ export default function AboutUs() {
           <div className="about-text">
             <h3>Welcome to Paradise Nursery</h3>
             <p>
-              Paradise Nursery is your ultimate destination for premium quality plants and gardening accessories. 
-              With over 20 years of experience in horticulture, we are dedicated to bringing the beauty of nature into your homes and offices.
+              At Paradise Nursery, we believe that bringing greenery into your living space transforms
+              not just the aesthetic of your room, but also your health, focus, and peace of mind.
+              Founded by passionate plant enthusiasts, our nursery is dedicated to providing healthy,
+              sustainably grown houseplants that flourish in indoor environments.
             </p>
             
             <h3>Our Mission</h3>
             <p>
-              Our mission is to make gardening accessible and enjoyable for everyone, from beginners to experienced plant enthusiasts. 
-              We provide carefully curated houseplants, succulents, flowering plants, and herbs that are healthy, vibrant, and perfect for any space.
+              Our mission is to make indoor gardening accessible, enjoyable, and rewarding for everyone—whether
+              you are taking home your very first succulent or cultivating an expansive urban jungle.
+              We take great care in curating resilient, vibrant houseplants that purify the air and uplift your everyday life.
             </p>
             
-            <h3>Why Choose Us?</h3>
+            <h3>Why Choose Paradise Nursery?</h3>
             <ul className="features-list">
-              <li>✓ High-quality, healthy plants sourced from trusted growers</li>
-              <li>✓ Expert gardening advice and care tips</li>
-              <li>✓ Fast and reliable shipping with proper plant packaging</li>
-              <li>✓ Competitive prices with seasonal discounts</li>
-              <li>✓ 100% satisfaction guarantee on all plants</li>
-              <li>✓ Wide variety of plants for all skill levels</li>
+              <li>✓ Hand-inspected, healthy plants sourced directly from sustainable growers</li>
+              <li>✓ Comprehensive botanical collections: air purifiers, aromatics, and low-maintenance succulents</li>
+              <li>✓ Clear plant-care guidance tailored to beginners and experienced collectors alike</li>
+              <li>✓ Eco-friendly packaging engineered to ensure safe transit directly to your doorstep</li>
+              <li>✓ Dedicated customer support to assist you at every step of your plant parenting journey</li>
             </ul>
             
-            <h3>Our Values</h3>
+            <h3>Our Commitment to Sustainability</h3>
             <p>
-              We believe in sustainability, quality, and customer satisfaction. Every plant is carefully inspected 
-              before shipping to ensure it arrives in perfect condition. We also provide ongoing support to help you care for your plants.
+              We prioritize eco-friendly soil mixes, recyclable packaging materials, and energy-conscious
+              nursery practices to minimize our carbon footprint and preserve natural habitats for generations to come.
             </p>
           </div>
           
           <div className="about-contact">
-            <h3>Contact Us</h3>
+            <h3>Contact Paradise Nursery</h3>
             <div className="contact-info">
-              <p><strong>Email:</strong> info@paradisenursery.com</p>
-              <p><strong>Phone:</strong> 1-800-PLANTS-1</p>
-              <p><strong>Address:</strong> 123 Garden Lane, Botanical City, BC 12345</p>
-              <p><strong>Hours:</strong> Mon-Fri 9AM-6PM, Sat 10AM-4PM, Sun Closed</p>
+              <p><strong>Customer Care:</strong> support@paradisenursery.com</p>
+              <p><strong>Toll-Free:</strong> 1-800-PARADISE (1-800-727-2347)</p>
+              <p><strong>Headquarters:</strong> 500 Botanical Way, Suite 10, Green City, GC 94016</p>
+              <p><strong>Nursery Hours:</strong> Mon - Sat: 9:00 AM - 6:00 PM EST (Closed Sundays)</p>
             </div>
           </div>
         </div>
